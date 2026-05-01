@@ -7,6 +7,6 @@ const contagem = setInterval(() => {
   } else {
     console.log("0");
     console.log("DECOLAGEM! 🚀");
-    clearInterval(contagem); // Para o cronômetro
+    clearInterval(contagem);
   }
 }, 1000);
